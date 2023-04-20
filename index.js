@@ -50,6 +50,7 @@ app.delete("/user/:id", async (req, res) => {
   }
 });
 
+//Add new user
 app.post("/add", async (req, res) => {
   const email = req.body.email;
   const userName = req.body.userName;
